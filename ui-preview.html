@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinLauncher UI Preview</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', monospace;
+            background-color: #000000;
+            color: #FFFFFF;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .phone-frame {
+            width: 320px;
+            height: 600px;
+            margin: 20px auto;
+            background-color: #000000;
+            border: 3px solid #333;
+            border-radius: 20px;
+            padding: 24px;
+            box-sizing: border-box;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 32px;
+            margin-top: 16px;
+        }
+        
+        .app-list {
+            flex: 1;
+        }
+        
+        .app-item {
+            padding: 16px 0;
+            border-bottom: 1px solid #1A1A1A;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .app-item:hover {
+            background-color: #1A1A1A;
+        }
+        
+        .app-name {
+            font-size: 16px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .preview-note {
+            text-align: center;
+            margin: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-note">
+        <h2>MinLauncher UI Preview</h2>
+        <p>This is how your minimal Android launcher will look</p>
+    </div>
+    
+    <div class="phone-frame">
+        <div class="title">Essential Apps</div>
+        <div class="app-list">
+            <div class="app-item">
+                <div class="app-name">Phone</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Messages</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Contacts</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Camera</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Settings</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Calculator</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Calendar</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Clock</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Maps</div>
+            </div>
+            <div class="app-item">
+                <div class="app-name">Gmail</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="preview-note">
+        <p><strong>Features:</strong></p>
+        <ul style="text-align: left; display: inline-block;">
+            <li>Pure black background (#000000)</li>
+            <li>White text (#FFFFFF)</li>
+            <li>Monospace font for minimal aesthetic</li>
+            <li>Only essential apps shown</li>
+            <li>No icons - text only</li>
+            <li>Clean, distraction-free design</li>
+        </ul>
+    </div>
+</body>
+</html>
